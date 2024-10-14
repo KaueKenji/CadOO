@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+  <title>CadOO</title>
+  <link href="style_index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="CadOO">
+  <h1 >CadOO</h1>
+    </div>
+  
+  <container id="form">
+    <form action="#" th:action="@{/cadastrar}" method=post th:object="${cliente}">
+      Login:<br>
+      <input class = "cxtxt" type="text"><br>
+      
+      <a href="Cadastrar.html">Não possui cadastro?</a>
+      <p></p>
+      Senha:<br>  
+      <input class = "cxtxt" type="password" ><br>
+      <a href="RedefinirSenha.html">Esqueceu a senha?</a>
+      <p></p>
+      <input id="botao" type="submit" value="Confirmar">
+      <a href="Principal.html">Avançar</a>
+      
+    </form>
+  </container>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

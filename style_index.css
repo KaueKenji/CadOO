@@ -1,0 +1,34 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#CadOO{
+  margin: auto;
+  display: flex; /*ativar alinhamento*/
+  justify-content: center; /*horizontal*/
+  background-color: #fde444;
+  width: 50%;
+  height: 50%;
+  
+}
+#form  {
+  display: flex; /*ativar alinhamento*/
+  align-items: center; /* vertical*/
+  justify-content: center; /*horizontal*/
+}
+#botao {
+  margin-left: 13% ;  
+  width: 75%;
+  height: 50px;
+  border-radius: 20px;
+  border: 1% solid black;
+  background-color: #f9dba4;
+}
+.cxtxt{
+  background-color: #c2c2c2;
+  width: 100%;
+  height: 25px;
+  border-radius: 30px;
+  border: 1% solid black;
+  
+}
